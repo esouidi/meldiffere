@@ -86,7 +86,7 @@ postlog   unix-dgram n  -       n       -       1       postlogd
 maildrop  unix  -       n       n       -       -       pipe
   flags=DRXhu user=vmail argv=/usr/bin/maildrop -d ${recipient}
 
-coucou unix - n n - - pipe user=souidi null_sender= argv=/home/souidi/Documents/mail_processing_noroot.py
+coucou unix - n n - - pipe user=souidi null_sender= argv=/etc/postfix/mail_processing.py
 #
 # ====================================================================
 #
