@@ -1,6 +1,6 @@
-# meldiffere
+# Meldiffere - Projet technologique 3A
 
-Projet technologique 3A.
+Application pour envoyer des mails en différé avec Postfix
 
 Fichiers de configuration master.cf, main.cf et transport nécessaires pour faire fonctionner l'application.
 
