@@ -34,8 +34,8 @@ message = content[-1]                                           # Recuperation d
 try:                                                                           # Le mail est a differer
     dest_original_asterisk = re.findall(r"\+(.*?)-", destinataire)[0]          # Extraction de l'adresse de destination sans "To: " avec *
     date_cible_str = re.findall(r"-(.*?)@", destinataire)[0]                   # Exctraction de l'heure d'arrivee voulue du mail
-    print(date_cible_str)
-    print(dest_original_asterisk)
+    #//print(date_cible_str)
+    #print(dest_original_asterisk)
 
 except:
     print("erreur dans l'adresse mail")
